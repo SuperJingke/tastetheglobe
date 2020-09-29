@@ -79,10 +79,20 @@ a:focus, img:focus, button:focus, .btn:focus {
 @font-face {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+/*== menu ==*/
+.prof-img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+
 /*== Body ==*/
 
 body {
 	background-image: url(../images/overlay-bg.png), url(../images/main-bg.jpg);
+	height: 800px;
 	background-size: cover;
 	background-repeat: repeat, no-repeat;
 	background-position: center center;
