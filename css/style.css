@@ -82,21 +82,22 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 /*== menu ==*/
 .prof-img {
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
+	width: 220px;
+	height: 250px;
+	border-radius: 30%;
+	margin: 5px 5px 5px 5px;
 }
 
 
 /*== Body ==*/
 
 body {
-	background-image: url(../images/overlay-bg.png), url(../images/main-bg.jpg);
 	height: 800px;
 	background-size: cover;
 	background-repeat: repeat, no-repeat;
 	background-position: center center;
-	background-attachment: fixed
+	background-attachment: fixed;
+	background-color: #040404;
 }
 
 /*== Siderbar ==*/
@@ -107,7 +108,7 @@ aside[role="siderbar-nav"] {
 	height: 100%;
 	width: 50px;
 	top: 0;
-	background-color: #111111
+	background-color: #040404;
 }
 aside[role="siderbar-nav"] > nav {
 	padding-top: 110px
@@ -207,28 +208,11 @@ article.home-content p {
 	font-size: 21px;
 	line-height: 27px;
 }
-#countdown {
-	padding-top: 208px;
-	padding-bottom: 86px
-}
-#countdown span {
-	display: inline-block;
-	text-align: center;
-	text-transform: uppercase;
-	color: #FFF;
-	font-weight: 700;
-	font-size: 33px;
-	line-height: 34px;
-	margin-right: 57px
-}
-#countdown span b {
-	display: block;
-	font-size: 11px;
-	line-height: 12px;
-	letter-spacing: 2px;
-	border-top: 3px solid #e84d49;
-	margin-top: 5px;
-	padding-top: 6px
+/* == hero image ==*/
+.hero {
+	float: right;
+	height: 500px;
+	width: 550px;
 }
 /*== About ==*/
 
@@ -255,86 +239,18 @@ article.home-content p {
 	width: 598px;
 	padding-bottom: 27px
 }
-/*== Subscribe ==*/
-
-.subscribe-pan form {
-	width: 400px;
-	display: block;
-	overflow: hidden;
-	padding-top: 15px;
-	margin-bottom: 272px
+/*== Album ==*/
+.album-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
-.subscribe-pan form input[type="email"] {
-	display: block;
-	width: 340px;
-	height: 50px;
-	outline: none;
-	padding: 0 10px;
-	border: 1px solid #FFF;
-	background-color: inherit;
-	font-size: 15px;
-	line-height: 16px;
+.pic-book {
+	width: 100px;
+	height: 130px;
+	border-radius: 30%;
+}
+.pic-book a:hover {
 	color: #a4a4a4;
-	font-weight: 300;
-	float: left
-}
-.subscribe-pan form label {
-	float: right;
-	width: 60px;
-	height: 50px;
-	position: relative;
-	text-align: center;
-}
-.subscribe-pan form label input {
-	font-size: 0;
-	display: block;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	width: 60px;
-	height: 50px;
-	background-color: #FFF
-}
-.subscribe-pan form label i {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	font-size: 24px;
-	color: #111111;
-	cursor: pointer;
-	line-height: 50px
-}
-.subscribe-pan form label:hover input {
-	background-color: #e84d49
-}
-.subscribe-pan form label:hover i {
-	color: #FFF
-}
- .subscribe-pan form ::-webkit-input-placeholder {
-color:#a4a4a4;
-}
- .subscribe-pan form ::-moz-placeholder {
-color:#a4a4a4;
-} /* firefox 19+ */
- .subscribe-pan form :-ms-input-placeholder {
-color:#a4a4a4;
-} /* ie */
- .subscribe-pan form input:-moz-placeholder {
-color:#a4a4a4;
-}
-.subscribe-pan > p {
-	font-size: 13px;
-	letter-spacing: 1px;
-	font-weight: 300
-}
-.error_message {
-	color: #e84d49
-}
-#success_page h3, #success_page p {
-	color: #60ca6f
 }
 /*== Contact ==*/
 
@@ -391,7 +307,7 @@ color:#a4a4a4;
 /*== Footer ==*/
 
 footer[role="footer"] {
-	background-color: #111111;
+	background-color: #040404;
 	overflow: hidden;
 	position: fixed;
 	bottom: 0;
@@ -417,6 +333,20 @@ footer[role="footer"] p i {
 footer[role="footer"] p a {
 	padding: 0 4px;
 	color: #e84d49
+}
+.footer-icon {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto auto auto;
+	list-style: none;
+	float: right;
+	padding: 1px 1px 1px 1px;
+	
+}
+
+.item-icon {
+	padding-left: 15px;
+	size: 6;
 }
 /*==  code for animated blinking cursor ==*/
 .typed-cursor {
