@@ -1,7 +1,8 @@
 # personal website for tastetheglobe
 ## Personal info
 1. About me 
-2. My personal motto
+2. Contact info
+3. others (updating...)
 
 ## Work
 1. profile
