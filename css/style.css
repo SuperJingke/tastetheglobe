@@ -234,7 +234,7 @@ article.home-content p {
 	padding: 0;
 	margin: 0;
 	color: #FFF;
-	font-size: 39px;
+	font-size: 40px;
 	line-height: 40px;
 	font-weight: 700
 }
@@ -311,6 +311,97 @@ color:#a4a4a4;
 }
 .contact-from input[type="submit"]:hover {
 	background-color: #f8524e
+}
+
+.contact-lst{
+	list-style-type: none;
+
+}
+.contact-lst li{
+	font-size: 2em;
+	font-style: italic;
+}
+
+/*== Subscribe ==*/
+
+.subscribe-pan form {
+	width: 400px;
+	display: block;
+	overflow: hidden;
+	padding-top: 15px;
+	margin-bottom: 272px
+}
+.subscribe-pan form input[type="email"] {
+	display: block;
+	width: 340px;
+	height: 50px;
+	outline: none;
+	padding: 0 10px;
+	border: 1px solid #FFF;
+	background-color: inherit;
+	font-size: 15px;
+	line-height: 16px;
+	color: #a4a4a4;
+	font-weight: 300;
+	float: left
+}
+.subscribe-pan form label {
+	float: right;
+	width: 60px;
+	height: 50px;
+	position: relative;
+	text-align: center;
+}
+.subscribe-pan form label input {
+	font-size: 0;
+	display: block;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	width: 60px;
+	height: 50px;
+	background-color: #FFF
+}
+.subscribe-pan form label i {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-size: 24px;
+	color: #111111;
+	cursor: pointer;
+	line-height: 50px
+}
+.subscribe-pan form label:hover input {
+	background-color: #e84d49
+}
+.subscribe-pan form label:hover i {
+	color: #FFF
+}
+ .subscribe-pan form ::-webkit-input-placeholder {
+color:#a4a4a4;
+}
+ .subscribe-pan form ::-moz-placeholder {
+color:#a4a4a4;
+} /* firefox 19+ */
+ .subscribe-pan form :-ms-input-placeholder {
+color:#a4a4a4;
+} /* ie */
+ .subscribe-pan form input:-moz-placeholder {
+color:#a4a4a4;
+}
+.subscribe-pan > p {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 300
+}
+.error_message {
+	color: #e84d49
+}
+#success_page h3, #success_page p {
+	color: #60ca6f
 }
 /*== Footer ==*/
 
