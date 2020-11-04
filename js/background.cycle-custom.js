@@ -22,7 +22,7 @@ var fadeShow = $(".background").fadeShow({
 
 
 			 'images/slider-image-2.jpg',
-			 'images/IMG_8923.JPG'
+			 'images/IMG_8923.JPG',
 			]
 
 
