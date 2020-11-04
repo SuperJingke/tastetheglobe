@@ -32,36 +32,3 @@ var fadeShow = $(".background").fadeShow({
 
 
 });
-// For album 2
-var fadeShow2 = $(".background2").fadeShow2({
-
-
-
-	correctRatio: true,
-
-
-
-	shuffle: true,
-
-
-
-	speed: 2600,
-
-
-
-	images: ['images/IMG_8918.JPG',
-
-
-
-			 'images/IMG_8919.JPG',
-
-			 
-			 'images/IMG_8920.JPG']
-
-
-
-
-
-
-
-});

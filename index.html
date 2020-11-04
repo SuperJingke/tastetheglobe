@@ -43,9 +43,7 @@
 <aside role="siderbar-nav" class="side-bar">
   <nav>
     <ul class="nav nav-tabs">
-      
-      <li class="active"><a data-toggle="tab" href="#home" title="Home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-      <li><a data-toggle="tab" href="#menu1" title="About"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+      <li><a data-toggle="tab" href="#home" title="Home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
       <li><a data-toggle="tab" href="#menu2" title="Subscribe"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
       <li><a data-toggle="tab" href="#menu3" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
     </ul>
@@ -63,22 +61,14 @@
     <div class="tab-content"> 
       
       <!-- Home -->
-      
-      <section id="home"></section>
       <section><img class="hero" src="./images/main-bg.jpg" alt="hero image"></section>
-      
-      <!-- Home --> 
-      
-      <!-- about -->
-      
-      <section id="menu1" class="tab-pane fade other-page about-pan">
+      <section id="home" class="tab-pane fade in active">
         <header role="page-title">
           <img class="prof-img" src="./images/profile.JPG" alt="profile">
         </header>
         <section id="home" class="tab-pane fade in active">
           <article class="home-content">
-            <header role="home-title">
-              
+            <header role="home-title">          
               <br>
               <h2>I am 
                 <div id="typed-strings"><span>Suki</span><span>a photographer</span><span>dedicated</span></div>
@@ -89,31 +79,42 @@
         </section>
       </section>
       
-      <!-- about --> 
+      
+      <!-- Home --> 
+      
+      <!-- Home -->
+      
+      <section id="menu1" class="tab-pane fade other-page about-pan">
+        
+        <header role="page-title">
+          <img class="prof-img" src="./images/profile.JPG" alt="profile">
+        </header>
+        <section id="home" class="tab-pane fade in active">
+          <article class="home-content">
+            <header role="home-title">          
+              <br>
+              <h2>I am 
+                <div id="typed-strings"><span>Suki</span><span>a photographer</span><span>dedicated</span></div>
+                <span id="typed" style="white-space:pre;"></span></h2>
+            </header> 
+            
+          </article>
+        </section>
+      </section>
+      
+      <!-- Home --> 
   
       <!-- My album -->
       
       <section id="menu2" class="tab-pane fade other-page">
-        
-        <header role="page-title">
-          <h2>/My album/</h2>
-        </header>
-        <!-- <section class="album-container">
-          <div>
-            <a href="./album1.html"><img  class="pic-book" src="./images/album1.png" alt="Album1"></a>
-            <h2>秋日物语</h2>   
-          </div>
-          <div>
-            <a href="#"><img  class="pic-book" src="./images/IMG_8922.JPG" alt="Album2"></a>
-            <h2>夏日森林</h2>   
-          </div>
-          <div>
-            <a href="#"><img class="pic-book" src="./images/IMG_8920.JPG" alt="Album3"></a>
-            <h2>甜甜的笑</h2>
-          </div> -->
+        <section class="album-container">
           
-
-
+          <div class="container_a">
+            <header role="page-title">
+              <h2 style="text-align: left;font-style:italic;padding-left: 5px;">/ Album 1 /</h2>
+            </header>
+            <a href="./album1.html"><img  class="pic-book" src="./images/album1/cover.JPG" alt="Album1" ></a>
+          </div>
         </section>
         
         <br>
@@ -136,9 +137,30 @@
             <ul class="contact-lst">
               <li>Instagram: tastetheglobe.ph</li>
               <li>Wechat: TiansukW</li> 
-              <li>Facebook: Suki Wong</li>
+              <li>Facebook: Suki Wang</li>
             </ul>
-          </p>    
+          </p> 
+          <!-- subscribe -->
+          
+          <div class="subscribe-pan">
+            <div class="ntify_form">
+              <form method="post" action="php/subscribe.php" name="subscribeform" id="subscribeform">
+                <input name="email" type="email" id="subemail" placeholder="Enter Your Email to subscribe">
+                <label>
+                  <input name="" type="submit" class="button-icon">
+                  <a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a> </label>
+              </form>
+              
+              <!-- subscribe message -->
+              
+              <div id="mesaj"></div>
+              
+              <!-- subscribe message --> 
+              
+            </div>
+          </div>
+          
+          <!-- subscribe -->    
         </article>
         
         
