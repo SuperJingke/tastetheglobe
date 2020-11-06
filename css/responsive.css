@@ -34,6 +34,8 @@
 	.container{ padding-left:60px}
 
 	footer[role="footer"]{ position:fixed; bottom:0; width:100%; left:0; right:0}
+	.footer-icon{position: relative;
+	}
 
 }
 
@@ -45,6 +47,8 @@
 		grid-template-columns: auto;
 	}
 	footer{ position: fixed;}
+	.footer-icon{position: fixed; top: 0; right: 0;
+	}
 
 	.container{ padding-left:45px}
 
