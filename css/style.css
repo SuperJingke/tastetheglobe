@@ -223,6 +223,9 @@ article.home-content p {
 	height: 500px;
 	width: 450px;
 }
+.universe-img {
+	background: url(../images/main-bg.jpg);
+}
 /*== About ==*/
 
 .about-pan {
@@ -256,6 +259,8 @@ article.home-content p {
 .container_a{
 	position: relative;
 	padding-left: 0;
+	padding-top: 25px;
+	padding-right: 5px;
 	
 }
 .container_a:hover .pic-book{
@@ -270,7 +275,7 @@ article.home-content p {
 	opacity: 1;
 	display: block;
 	width: 200px;
-	height: auto;
+	height: 300px;
 	transition: .5s ease;
 	backface-visibility: hidden;
 	
@@ -446,6 +451,7 @@ color:#a4a4a4;
 /*== Footer ==*/
 
 footer[role="footer"] {
+	position: fixed;
 	background-color: #000000;
 	overflow: hidden;
 	position: fixed;
@@ -454,12 +460,14 @@ footer[role="footer"] {
 	z-index: 5
 }
 footer[role="footer"] p {
+	position: fixed;
 	color: #FFF;
 	font-size: 14px;
 	line-height: 50px;
 	padding: 0;
 	margin: 0;
-	float: left
+	float: left;
+	bottom: 0;
 }
 footer[role="footer"] p + p {
 	text-align: right;

@@ -15,22 +15,36 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	.container{ padding-left:50px}
+	.album-container{
+		display: grid;
+		grid-template-columns: auto;
+	}
+	footer{ position: fixed;}
 
 }
 
 /* sm */
 
 @media (min-width: 768px) and (max-width: 991px) {
+	.album-container{
+		display: grid;
+		grid-template-columns: auto;
+	}
 
 	.container{ padding-left:60px}
 
-	footer[role="footer"]{ position:absolute; bottom:0; width:100%; left:0; right:0}
+	footer[role="footer"]{ position:fixed; bottom:0; width:100%; left:0; right:0}
 
 }
 
 /* xs */
 
 @media (max-width: 767px) {
+	.album-container{
+		display: grid;
+		grid-template-columns: auto;
+	}
+	footer{ position: fixed;}
 
 	.container{ padding-left:45px}
 
