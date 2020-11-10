@@ -114,10 +114,12 @@ body {
 aside[role="siderbar-nav"] {
 	position: fixed;
 	left: 0;
+	top: 0;
+	bottom: 0;
 	height: 100%;
 	width: 50px;
-	top: 0;
-	background-color: #0f0f0f;
+	margin-bottom: 0;
+	background-color: #000000;
 }
 aside[role="siderbar-nav"] > nav {
 	padding-top: 110px
@@ -132,7 +134,7 @@ aside[role="siderbar-nav"] > nav > ul {
 aside[role="siderbar-nav"] > nav > ul > li {
 	display: block;
 	float: none;
-	margin-bottom: 25px
+	margin-bottom: 35px;
 }
 aside[role="siderbar-nav"] > nav > ul > li > a {
 	font-size: 18px;
