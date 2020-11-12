@@ -340,7 +340,7 @@ color:#a4a4a4;
 .contact-from textarea {
 	margin-bottom: 21px;
 	height: 126px;
-	padding: 10px
+	padding: 2px;
 }
 .contact-from input[type="submit"] {
 	display: block;
