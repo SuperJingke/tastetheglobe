@@ -90,8 +90,8 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 /*== menu ==*/
 .prof-img {
-	width: 216px;
-	height: 290px;
+	width: 16px;
+	height: 100px;
 	border-radius: 80%;
 	margin: 1px 5px 5px 15px;
 	padding-top: 0%;
@@ -203,7 +203,8 @@ article.home-content {
 	color: #FFF
 }
 article.home-content header[role="home-title"] {
-	padding-bottom: 44px
+	padding-bottom: 44px;
+	padding-left: 20px;
 }
 article.home-content header[role="home-title"] h2 {
 	margin: 0;
@@ -224,10 +225,9 @@ article.home-content p {
 	float: right;
 	height: 500px;
 	width: 450px;
+	padding-bottom: 0px;
 }
-.universe-img {
-	background: url(../images/main-bg.jpg);
-}
+
 /*== About ==*/
 
 .about-pan {
@@ -276,8 +276,8 @@ article.home-content p {
 .pic-book {
 	opacity: 1;
 	display: block;
-	width: 200px;
-	height: 300px;
+	width: 215px;
+	height: 320px;
 	transition: .5s ease;
 	backface-visibility: hidden;
 	

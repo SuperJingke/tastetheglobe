@@ -45,11 +45,31 @@
 	.album-container{
 		display: grid;
 		grid-template-columns: auto;
+	
 	}
 	footer{ position: fixed;}
 	.footer-icon{position: fixed; top: 0; right: 0;
 	}
-
+	.prof-img {
+		width: 6px;
+		height: 5px;
+		border-radius: 80%;
+		margin: 1px 5px 5px 15px;
+		padding-top: 0%;
+		padding-bottom: 2px;
+	}
+	.waterfall_box img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+	}
+	
+	.hero {
+		float: right;
+		height: 380px;
+		width: 330px;
+		padding-bottom: 0px;
+	}
 	.container{ padding-left:45px}
 
 	aside[role="siderbar-nav"]{ width:35px}
