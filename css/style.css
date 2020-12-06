@@ -284,6 +284,10 @@ article.home-content p {
 	border-radius: 3%;
 }
 
+.a-frame {
+	border: solid white 1px;
+}
+
 
 /* .main-waterfall_row{
 	margin-bottom: 4px;
